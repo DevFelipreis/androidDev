@@ -7,7 +7,7 @@ fun main() {
     var d: Char = 'f'
     var e: String = "Luiz Felipe"
     var f: Short = 2
-    var g: Byte = 0b101
+    var g: Byte = 0b1101
     var h: Byte = 0xf
     var i: UInt = 12u
 
