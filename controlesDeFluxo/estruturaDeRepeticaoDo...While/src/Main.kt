@@ -1,3 +1,8 @@
 fun main() {
-    println("Hello World!")
+    var index=0
+
+    do {
+        println("$index")
+        index++
+    }while (index != 10)
 }
