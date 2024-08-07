@@ -15,7 +15,7 @@ Durante o período de capacitação, eu irei explorar os fundamentos da programa
 - **Unidade 03**: Kotlin - Tratamento de dados
 - **Unidade 04**: Kotlin - Programação Orientada a Objetos
 - **Unidade 05**: Android Studio
-- **Unidade 04**: Aplicativo
+- **Unidade 06**: Aplicativo
 
 ## Meus Projetos
 
