@@ -2,6 +2,22 @@
 
 Este projeto em Kotlin é um aplicativo que calcula as emissões de carbono para diversos alimentos com base em suas quantidades e tipos. Ele lê dados de um arquivo, processa as informações e retorna as emissões de carbono calculadas.
 
+## Clonando o Repositório
+
+Para clonar este repositório e configurá-lo localmente, siga os passos abaixo:
+
+### 1. Clonar todos os Repositórios do Projeto Curso AndroidDev
+
+Use o comando `git clone` para clonar o repositório para sua máquina local.
+
+bash
+```git clone git@github.com:DevFelipreis/androidDev.git```
+
+
+![image](https://github.com/user-attachments/assets/40653290-2a01-4956-930f-a86e4188e602)
+
+
+
 ## Funcionalidades
 
 - Leitura de dados de alimentos e suas quantidades a partir de um arquivo de texto.
@@ -65,6 +81,6 @@ Este projeto está licenciado sob a [MIT License](LICENSE).
 
 ## Contato
 
-Para mais informações, entre em contato com [Seu Nome](lfreis.contato@gmail.com).
+Para mais informações, entre em contato: [Email](lfreis.contato@gmail.com).
 
-```
+
