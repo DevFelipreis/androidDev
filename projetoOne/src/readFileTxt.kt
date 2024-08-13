@@ -5,7 +5,7 @@ import getCarbonEmissions.getCarbonEmissions
 
 fun readFile(): String? {
     val pathFile = "C:\\Users\\felip\\Documents\\ESTUDOS\\Programação\\learning-kotlin\\" +
-            "androidDev\\projetoOne\\Arquivo.txt" // change it to your file path
+            "androidDev\\projetoOne\\Arquivo.txt"
     val file = File(pathFile)
 
     try {
@@ -24,6 +24,7 @@ fun carbonCalculation(): String {
 
     val items = body.split(", ")
     val results = StringBuilder()
+    var somaEmission = 0.0
 
     for (scanner in items) {
         val parts = scanner.split(":")
@@ -47,14 +48,19 @@ fun carbonCalculation(): String {
             results.append("Quantidade inválida para o alimento: $amountStr\n")
             continue
         }
+        try {
+            val emission = getCarbonEmissions(amountKg, name)
 
-        val emission = getCarbonEmissions(amountKg, name)
-
-        if (emission == 0.0) {
-            results.append("Alimento: $name ainda não consta em nosso Banco de Dados\n")
-        } else {
-            results.append("Alimento: $name, Quantidade: $amountStr, Emissão de carbono: ${emission} kg CO₂e\n")
+            if (emission == 0.0) {
+                results.append("Alimento: $name ainda não consta em nosso Banco de Dados\n")
+            } else {
+                somaEmission += emission
+                results.append("Alimento: $name, Quantidade: $amountStr, Emissão de carbono: %.4f kg CO₂e\n".format(emission))
+            }
+        }catch (e: Exception){
+            results.append("Erro interno")
         }
     }
+    results.append("\nO total de Emissão de carbono é de: %.4f kg CO₂e\n".format(somaEmission))
     return results.toString()
 }
