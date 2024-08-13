@@ -33,6 +33,5 @@ Aqui vou postar tudo que vou fazer durante o curso:
 
 ## Contato
 
-Se você tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato comigo em [lfreis.contato@gmail.com].
+Se você tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato comigo em [Email](lfreis.contato@gmail.com).
 
-Feliz codificação!
