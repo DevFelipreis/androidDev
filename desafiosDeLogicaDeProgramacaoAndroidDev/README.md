@@ -1,5 +1,5 @@
 # Desafios de Lógica de Programação – AndroidDev
-##Aluno: Luiz Felipe P. dos Reis
+## Aluno: Luiz Felipe P. dos Reis
 
 Este repositório contém uma série de desafios de lógica de programação desenvolvidos como parte do curso Android Dev. Os desafios envolvem conceitos fundamentais de programação, como operações aritméticas, lógica condicional e manipulação de variáveis.
 
