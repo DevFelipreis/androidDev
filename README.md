@@ -21,7 +21,7 @@ Durante o período de capacitação, eu irei explorar os fundamentos da programa
 
 Aqui vou postar tudo que vou fazer durante o curso:
 
-1. [Projeto 1: Em desenvolvimento](#)
+1. [Projeto 1: Cálculo de Emissão de Carbono](https://github.com/DevFelipreis/androidDev/tree/main/projetoOne)
 
 
 ## Recursos
