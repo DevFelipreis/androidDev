@@ -12,13 +12,17 @@ fun readFile(){
                              "tratamentoDeDados\\src\\Arquivo.txt")
     try {
         Scanner(file).use{r->
-            while (r.hasNext()){
-                println(r.next())
+            if(!r.hasNext()){
+                println("Arquivo vazio")
+            }else{
+                while (r.hasNextLine()){
+                    println(r.nextLine())
+                }
+                r.close()
             }
-            r.close()
         }
     }catch (e: FileNotFoundException){
-        println("Erro ao ler o arquivo. Arquivo vazio ou inexistente")
+        println("Erro ao ler o arquivo. Arquivo inexistente")
     }
 
     println("")

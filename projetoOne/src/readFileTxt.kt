@@ -10,12 +10,13 @@ fun readFile(): String? {
 
     try {
        return file.readText().takeIf { it.isNotEmpty() }
-    } catch (e: Exception) {
+    } catch (e: IllegalArgumentException) {
         return "Erro ao ler o arquivo: ${e.message}"
     }
 }
 
 fun carbonCalculation(): String {
+
     val body = readFile()
 
     if (body == null) {
