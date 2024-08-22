@@ -1,6 +1,6 @@
 # Jornada Green Code - Android Dev
 
-Bem-vindo(a) à Jornada Green Code!
+### Bem-vindo(a) à Jornada Green Code!
 
 Fui aprovado para participar do curso Android Dev, que me deixará pronto para dominar o desenvolvimento Android e se destacar no mercado de trabalho. Este bootcamp intensivo ensinará tudo o que eu preciso para criar aplicativos incríveis com a linguagem Kotlin, a nova queridinha dos desenvolvedores Android.
 
