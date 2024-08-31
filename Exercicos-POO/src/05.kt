@@ -14,19 +14,17 @@ class Aluno(var nome:String, var matricula:String, var notas:Array<Float>){
     open fun mediaNotas(media:Array<Float>){
 
         var qtdNotas = notas.size
-        var somaNotas = 0.0
-        var mediaNotas = somaNotas / qtdNotas
+        var somaNotas = 0.0f
+
 
         for (index in 0 until qtdNotas){
-            somaNotas = somaNotas + notas[index]
-        }
-
-        for (nota in notas){
-            println("Suas notas: $nota")
-
+            somaNotas  += notas[index]
 
         }
 
+        var mediaNotas = somaNotas / 4
+
+       
         if(mediaNotas < 6.0f){
             println("Você está de recuperação com a média final de $mediaNotas")
         }else if(mediaNotas < 4.0f){
@@ -44,9 +42,6 @@ val  aluno = Aluno("Luiz Felipe", "2024-6", arrayOf(3.5f, 8.8f, 9.0f, 6.6f))
     aluno.modificarNome("João Vitor")
     println("${aluno.matricula}")
     aluno.modificarMatricula("4000-5")
-    for (notas in aluno.notas){
-        println("${notas}")
-    }
     aluno.mediaNotas(arrayOf(6.0f,10.0f,3.7f, 6.8f,9.9f))
 
 }
