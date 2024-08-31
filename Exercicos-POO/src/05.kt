@@ -24,7 +24,7 @@ class Aluno(var nome:String, var matricula:String, var notas:Array<Float>){
 
         var mediaNotas = somaNotas / 4
 
-       
+
         if(mediaNotas < 6.0f){
             println("Você está de recuperação com a média final de $mediaNotas")
         }else if(mediaNotas < 4.0f){
