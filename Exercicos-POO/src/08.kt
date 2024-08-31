@@ -42,13 +42,38 @@ private  class Funcionario(var nome:String,
         cargo = cargoNovo
         return "Você alterou o cargo para $cargoNovo"
     }
+
+    fun exibirInformacoes(
+        nome:String=this.nome,
+        salario:Double=this.salario,
+        matricula:String=this.matricula,
+        cargo:String=this.cargo,
+        produtivida:Double=this.produtivida
+    ):String{
+        return """
+            Nome:$nome,
+            Salário: $salario,
+            Matrícula: $matricula,
+            Cargo: $cargo,
+            Produtividade: $produtivida
+            
+        """.trimIndent()
+    }
+
 }
+
+
 
 fun main() {
     val funcionario = Funcionario("Luiz Felipe", 5000.00, "2024-04", "Gerente", 61.0)
+
+    println("____________Não Atualizado_____________")
+    println(funcionario.exibirInformacoes())
     println(funcionario.mudarNome(""))
     println(funcionario.mudarSalario(0.0))
     println(funcionario.mudarMatricula(""))
     println(funcionario.mudarCargo("Diretor"))
     println(funcionario.aumentoSalario())
+    println("____________Atualizado_____________")
+    println(funcionario.exibirInformacoes())
 }
