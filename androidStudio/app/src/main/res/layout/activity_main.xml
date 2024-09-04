@@ -7,6 +7,12 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+    <ImageView
+        android:layout_width="149dp"
+        android:layout_height="122dp"
+        android:layout_margin="8dp"
+        android:src="@drawable/baseline_people_24" />
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="40dp"
@@ -44,11 +50,19 @@
 
  <EditText
      android:layout_width="match_parent"
-     android:layout_height="40dp"
+     android:layout_height="240dp"
      android:layout_margin="8dp"
-     android:inputType="textAutoComplete"
+     android:inputType="textMultiLine"
      android:hint="@string/descricao"/>
 
-    </LinearLayout>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Concorda com os termos?"
+        android:textSize="16sp"
+        android:layout_margin="8dp"
+        android:layout_gravity="end"/>
 
+
+</LinearLayout>
 
