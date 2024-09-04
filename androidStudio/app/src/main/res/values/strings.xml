@@ -1,4 +1,9 @@
 <resources>
-    <string name="app_name">app</string>
-    <string name="hello_world">Hello World</string>
+    <string name="app_name">My App</string>
+    <string name="firtsName">Nome</string>
+    <string name="lastName">Sobrenome</string>
+    <string name="email">Email</string>
+    <string name="celular">Celular</string>
+    <string name="senha">Senha</string>
+    <string name="descricao">Descrição</string>
 </resources>

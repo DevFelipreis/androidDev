@@ -7,21 +7,47 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <View
+    <EditText
         android:layout_width="match_parent"
-        android:layout_height="64dp"
-        android:background="@color/purple"/>
+        android:layout_height="40dp"
+        android:layout_margin="8dp"
+        android:inputType="text"
+        android:hint="@string/firtsName"/>
 
-    <View
+    <EditText
         android:layout_width="match_parent"
-        android:layout_height="610dp"
-        android:background="@color/pastel"/>
+        android:layout_height="40dp"
+        android:layout_margin="8dp"
+        android:inputType="text"
+        android:hint="@string/lastName"/>
 
-    <View
+ <EditText
+     android:layout_width="match_parent"
+     android:layout_height="40dp"
+     android:layout_margin="8dp"
+     android:inputType="textEmailAddress"
+     android:hint="@string/email"/>
+
+    <EditText
         android:layout_width="match_parent"
-        android:layout_height="128dp"
-        android:background="@color/black"/>
+        android:layout_height="40dp"
+        android:layout_margin="8dp"
+        android:inputType="number"
+        android:hint="@string/celular"/>
 
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="8dp"
+        android:inputType="textPassword"
+        android:hint="@string/senha"/>
+
+ <EditText
+     android:layout_width="match_parent"
+     android:layout_height="40dp"
+     android:layout_margin="8dp"
+     android:inputType="textAutoComplete"
+     android:hint="@string/descricao"/>
 
     </LinearLayout>
 
