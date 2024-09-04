@@ -1,82 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+   <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/main"
     android:background="@color/white"
     android:fillViewport="true"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
-    <LinearLayout
+    <View
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:layout_height="64dp"
+        android:background="@color/purple"/>
 
-        <TextView
-            android:layout_width="218dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:background="@color/pastel"
-            android:fallbackLineSpacing="true"
-            android:lineSpacingExtra="18dp"
-            android:text="@string/hello_world"
-            android:textAllCaps="true"
-            android:textColor="@color/purple"
-            android:textSize="64sp"
-            android:textStyle="italic|bold" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="610dp"
+        android:background="@color/pastel"/>
 
-        <TextView
-            android:layout_width="221dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:background="@color/pastel"
-            android:fallbackLineSpacing="true"
-            android:lineSpacingExtra="18dp"
-            android:text="@string/hello_world"
-            android:textAllCaps="true"
-            android:textColor="@color/purple"
-            android:textSize="64sp"
-            android:textStyle="italic|bold" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:background="@color/black"/>
 
-        <TextView
-            android:layout_width="221dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:background="@color/pastel"
-            android:fallbackLineSpacing="true"
-            android:lineSpacingExtra="18dp"
-            android:text="@string/hello_world"
-            android:textAllCaps="true"
-            android:textColor="@color/purple"
-            android:textSize="64sp"
-            android:textStyle="italic|bold" />
-
-        <TextView
-            android:layout_width="221dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:background="@color/pastel"
-            android:fallbackLineSpacing="true"
-            android:lineSpacingExtra="18dp"
-            android:text="@string/hello_world"
-            android:textAllCaps="true"
-            android:textColor="@color/purple"
-            android:textSize="64sp"
-            android:textStyle="italic|bold" />
-
-        <TextView
-            android:layout_width="221dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:background="@color/pastel"
-            android:fallbackLineSpacing="true"
-            android:lineSpacingExtra="18dp"
-            android:text="@string/hello_world"
-            android:textAllCaps="true"
-            android:textColor="@color/purple"
-            android:textSize="64sp"
-            android:textStyle="italic|bold" />
 
     </LinearLayout>
 
-</ScrollView>
+
