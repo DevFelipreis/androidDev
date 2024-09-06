@@ -10,4 +10,5 @@
     <string name="gastototal">SEU GASTO TOTAL SERÁ DE:</string>
     <string name="reais">R$ 0</string>
     <string name="calcular">Calcular</string>
+    <string name="preenchaTodosOsCampos">Preencha todos os campos com um valor maior que 0(zero)</string>
 </resources>
