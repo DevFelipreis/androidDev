@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Pastel"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="8dp"
+    >
+
+    <TextView
+        android:id="@+id/text_Header"
+        android:text="@string/textCabecalho"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="32sp"
+        android:textColor="@color/Red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/edit_Distance"
+        android:hint="@string/editDistancia"
+        android:textColor="@color/lightGray"
+        android:layout_marginTop="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/text_total_km"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/totalKM"
+        android:textColor="@color/Black"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/edit_Price"
+        android:hint="@string/preco"
+        android:textColor="@color/lightGray"
+        android:layout_marginTop="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/text_Price_Per_Litre"
+        android:text="@string/precoPorlitro"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/Black"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/edit_Autonomy"
+        android:hint="@string/autonomia"
+        android:textColor="@color/lightGray"
+        android:layout_marginTop="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/text_km_Per_Litres"
+        android:text="@string/kmPorLitros"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/Black"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/text_Total_Expenses"
+        android:text="@string/gastototal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/Black"
+        android:textSize="20sp"
+        android:layout_marginTop="64dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/text_Money"
+        android:text="@string/reais"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/Darkblue"
+        android:textSize="36sp"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/button_Calculator"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/calcular"
+        android:textColor="@color/White"
+        android:backgroundTint="@color/lightGreen"
+        android:textSize="24sp"
+        android:textAllCaps="true"/>
+
+
+</LinearLayout>
